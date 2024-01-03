@@ -199,8 +199,8 @@ registers:
       # RS Series
         - response: 0x2606
           value: "SG5.0RS"
-        - response: 0x9735
-          value: "SG6.0RS"            
+        - response: 0x2607
+          value: "SG6.0RS" 
     - name: "nominal_active_power"   
       level: 2
       address: 5001
