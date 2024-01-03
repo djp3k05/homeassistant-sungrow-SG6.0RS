@@ -128,7 +128,7 @@ async def async_setup_entry(
         logger,
         name=DOMAIN,
         update_method=f,
-        update_interval=max(timedelta(seconds=config_entry.data.get(CONF_SCAN_INTERVAL, 60)),
+        update_interval=max(timedelta(seconds=config_entry.data.get(CONF_SCAN_INTERVAL, 5)),
                             MIN_TIME_BETWEEN_UPDATES),
     )
 
