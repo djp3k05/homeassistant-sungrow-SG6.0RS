@@ -4,7 +4,7 @@
 
 This guide assumes you already have HACS installed.
 
-- Add repository https://github.com/alangibson/homeassistant-sungrow as an Integration repo in HACS Custom Repositories menu
+- Add repository https://github.com/djp3k05/homeassistant-sungrow-SG6.0RS as an Integration repo in HACS Custom Repositories menu
 - Add Sungrow repository in HACS
 - Download the Integration in HACS
 - Restart Home Assistant
