@@ -23,6 +23,7 @@ from homeassistant.const import (
     POWER_WATT
 )
 
+
 from .const import (
     SUNGROW_MPPT1_VOLTAGE,
     SUNGROW_MPPT1_CURRENT,
@@ -82,18 +83,18 @@ SENSOR_TYPES = (
         key=SUNGROW_MPPT1_VOLTAGE,
         register=SUNGROW_MPPT1_VOLTAGE,
         name="MPPT1 VOLTAGE",
-        native_unit_of_measurement=VOLT,
+        native_unit_of_measurement=POWER_WATT,
         device_class=DEVICE_CLASS_POWER,
         state_class=SensorStateClass.MEASUREMENT,
     ),
     SungrowInverterSensorEntityDescription(
         key=SUNGROW_MPPT1_CURRENT,
         register=SUNGROW_MPPT1_CURRENT,
-        name="MPPT1 CURRENT",
-        native_unit_of_measurement=ELECTRICAL_CURRENT_AMPERE,
+        name="MPPT1 Current",
+        native_unit_of_measurement=POWER_WATT,
         device_class=DEVICE_CLASS_POWER,
         state_class=SensorStateClass.MEASUREMENT,
-    ),    
+    ),      
     SungrowInverterSensorEntityDescription(
         key=SUNGROW_ENERGY_GENERATION,
         register=SUNGROW_ENERGY_GENERATION,
