@@ -12,6 +12,9 @@ DEFAULT_TIMEOUT = 3
 
 MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=5)
 
+SUNGROW_MPPT1_VOLTAGE = "mppt_1_voltage"
+SUNGROW_MPPT1_CURRENT = "mppt_1_current"
+
 # Unit is W
 SUNGROW_ENERGY_GENERATION = "energy_generation"
 # Unit is kWh
