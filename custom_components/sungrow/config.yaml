@@ -1,5 +1,5 @@
 name: "Sungrow"
-version: "0.0.4"
+version: "0.0.5"
 slug: sungrow
 description: "Extract Sungrow data from local Inverter"
 arch:
