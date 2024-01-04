@@ -24,6 +24,8 @@ from homeassistant.const import (
 )
 
 from .const import (
+    SUNGROW_MPPT1_VOLTAGE,
+    SUNGROW_MPPT1_CURRENT,
     SUNGROW_DAILY_EXPORT_ENERGY,
     SUNGROW_DAILY_POWER_YIELDS,
     SUNGROW_DAILY_PV_EXPORT,
