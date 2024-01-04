@@ -79,6 +79,22 @@ class SungrowInverterSensorEntityDescription(SensorEntityDescription):
 
 SENSOR_TYPES = (
     SungrowInverterSensorEntityDescription(
+        key=SUNGROW_MPPT1_VOLTAGE,
+        register=SUNGROW_MPPT1_VOLTAGE,
+        name="MPPT1 VOLTAGE",
+        native_unit_of_measurement=VOLT,
+        device_class=DEVICE_CLASS_POWER,
+        state_class=SensorStateClass.MEASUREMENT,
+    ),
+    SungrowInverterSensorEntityDescription(
+        key=SUNGROW_MPPT1_CURRENT,
+        register=SUNGROW_MPPT1_CURRENT,
+        name="MPPT1 CURRENT",
+        native_unit_of_measurement=ELECTRICAL_CURRENT_AMPERE,
+        device_class=DEVICE_CLASS_POWER,
+        state_class=SensorStateClass.MEASUREMENT,
+    ),    
+    SungrowInverterSensorEntityDescription(
         key=SUNGROW_ENERGY_GENERATION,
         register=SUNGROW_ENERGY_GENERATION,
         name="Current PV Power Generation",
